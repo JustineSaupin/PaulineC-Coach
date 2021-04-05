@@ -60,15 +60,17 @@ h3{
   align-items: center;
   justify-content: space-evenly;
   padding: 0px 15px 0px 15px;
+  margin-bottom: 32px;
 }
 .testimonial-card {
+  background-color: #D3EEEB;
   width: 25%;
   margin: 16px;
   border-radius: 5px;
   text-align: center;
   align-items: center;
   padding: 16px;
-  box-shadow: 0 0 30px rgba(79, 127, 121, 0.5);
+  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
 }
 .testimonial-card h6 {
   margin: 0;
@@ -76,7 +78,6 @@ h3{
 }
 
 .footer {
-  margin-top: 32px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -84,7 +85,6 @@ h3{
   padding: 0px 50px;
   color: #2D2D2A;
   border-top: solid 2px rgba(79, 127, 121, 0.5);
-
 }
 .footer-links {
   display: flex;
@@ -99,4 +99,17 @@ h3{
 }
 .footer-links a:hover {
   opacity: 1;
+}
+
+.apropos {
+display: flex;
+height: 500px;
+}
+.description {
+  text-align: justify;
+  margin: 48px;
+}
+.apropos img {
+  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+  border-radius: 5px;
 }
