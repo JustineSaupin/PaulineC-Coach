@@ -38,3 +38,13 @@ background-image: url('images/workout.jpeg');
 background-size: cover;
 opacity: 0.8;
 }
+
+.testimonials {
+  background: #9DD9D2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: #2D2D2A;
+}
