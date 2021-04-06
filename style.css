@@ -111,7 +111,7 @@ h3 {
 .description {
   display: flex;
   align-items: center;
-  margin-left: 32px;
+  margin-left: 24px;
 }
 
 .description-card {
@@ -133,6 +133,7 @@ h3 {
 .apropos img {
   box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
   border-radius: 5px;
+  height: 560px;
 }
 
 .contact {
