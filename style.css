@@ -20,14 +20,15 @@
 }
 .menu-table a {
   color: #2D2D2A;
-  opacity: 0.7;
+  opacity: 0.85;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
 }
 .menu-table a:hover {
   opacity: 1;
-  border-bottom: 3px solid #2D2D2A;
+  color: #FF7477;
+  border-bottom: 3px solid #FF7477;
 }
 
 .img-back {
@@ -51,9 +52,10 @@
   align-items: center;
   justify-content: center;
 }
-h3{
+h3 {
   text-align: center;
   margin-top: 25px;
+  color: #FF7477;
 }
 .testimonial-cards {
   display: flex;
@@ -92,23 +94,42 @@ h3{
 }
 .footer-links a {
   color: #2D2D2A;
-  opacity: 0.7;
+  opacity: 0.85;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
 }
 .footer-links a:hover {
   opacity: 1;
+  color: #FF7477;
 }
 
 .apropos {
   display: flex;
-  height: 500px;
+
 }
 .description {
-  text-align: justify;
-  margin: 48px;
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
 }
+
+.description-card {
+  height: auto;
+  width: 300px;
+  background-color: #D3EEEB;
+  margin: 16px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  padding: 16px;
+  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+}
+
+.description-card h4 {
+  color: #FF7477;
+}
+
 .apropos img {
   box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
   border-radius: 5px;
