@@ -106,14 +106,12 @@ h3 {
 
 .apropos {
   display: flex;
-
 }
 .description {
   display: flex;
   align-items: center;
   margin-left: 24px;
 }
-
 .description-card {
   height: auto;
   width: 300px;
@@ -125,11 +123,9 @@ h3 {
   padding: 16px;
   box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
 }
-
 .description-card h4 {
   color: #FF7477;
 }
-
 .apropos img {
   box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
   border-radius: 5px;
@@ -139,23 +135,47 @@ h3 {
 .contact {
   display: flex;
   height: 500px;
-  justify-content: space-between;
+  justify-content: center;
 }
 .contact .form {
   width: 500px;
-  margin-left: 200px;
   background-color: #D3EEEB;
-  border-radius: 5px;
+  border-radius: 5px 0 0 5px;
   text-align: center;
   align-items: center;
   align-content: center;
   box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
 }
 
-
-
-}
 .contact img {
   height: 500px;
+  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+  border-radius: 0 5px 5px 0;
+}
+
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.activitie-card {
+  height: 320px;
+  width: 300px;
+  background-color: #D3EEEB;
+  margin: 16px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  padding: 16px;
+  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+}
+.activitie-card h4 {
+  color: #FF7477;
+}
+.activities img {
+  height: 320px;
+  width: 300px;
+  margin: 16px;
+  border-radius: 5px;
   box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
 }
