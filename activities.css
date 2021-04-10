@@ -1,0 +1,38 @@
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 32px;
+}
+.activitie-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 320px;
+  width: 320px;
+  background-color: #D3EEEB;
+  margin: 16px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 16px;
+  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+}
+
+.activitie-card h4 {
+  color: #FF7477;
+}
+.activities img {
+  height: 320px;
+  width: 320px;
+  margin: 16px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+  transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

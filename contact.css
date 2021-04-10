@@ -1,0 +1,93 @@
+.contact {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.contact img {
+  height: 500px;
+  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+  border-radius: 0 5px 5px 0;
+}
+
+.contact h4 {
+  color: #FF7477;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+form {
+  /* Uniquement centrer le formulaire sur la page */
+  /*margin: 0 auto;
+  width: 500px;*/
+  /* Encadré pour voir les limites du formulaire */
+
+  align-items: center;
+  /*background-color: #D3EEEB;*/
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  /*box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);*/
+  padding: 48px;
+  margin-left: 88px;
+}
+
+
+form div + div {
+  margin-top: 16px;
+}
+
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+}
+
+input, textarea {
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 480px;
+  box-sizing: border-box;
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: solid 1px rgba(79, 127, 121, 0.5);
+  background-color: #D3EEEB;
+  border-radius : 5px;
+}
+
+input:focus, textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border: solid 3px rgba(79, 127, 121, 0.5);
+}
+
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+  /* Pour donner assez de place pour écrire du texte */
+  height: 160px;
+}
+
+.button {
+  /* Pour placer le bouton à la même position que les champs texte */
+  padding-left: 120px; /* même taille que les étiquettes */
+
+}
+
+button {
+  /* Cette marge supplémentaire représente grosso modo le même espace que celui
+     entre les étiquettes et les champs texte */
+  margin-left: .5em;
+  border-radius: 10px;
+  background-color: #D3EEEB;
+  border: none;
+  padding: 12px 32px;
+  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+  margin-top: 12px;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: #FF7477;
+  color: white;
+}
