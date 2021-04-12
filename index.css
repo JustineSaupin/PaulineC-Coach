@@ -41,12 +41,12 @@
 }
 .img-back h2 {
   color: #D3EEEB;
+  text-align: center;
+  top: 40%;
   z-index: 1;
   position: relative;
-  top: 120px;
-  left: 120px;
   font-weight: bold;
-  text-shadow: 0 0 5px rgba(79, 127, 121, 0.8);
+  text-shadow: 1px 1px 10px rgba(79, 127, 121, 0.8);
 }
 
 .img-back img {
@@ -54,8 +54,7 @@
   align-items: center;
   justify-content: center;
   width:100%;
-  opacity: 0.7;
-}
+  }
 
 
 
