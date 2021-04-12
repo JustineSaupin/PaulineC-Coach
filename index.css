@@ -35,21 +35,29 @@
 }
 
 .img-back {
+  overflow: hidden;
   height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('images/workout.jpeg');
-  background-size: cover;
-  opacity: 0.8;
+  position: relative;
 }
-
 .img-back h2 {
   color: #D3EEEB;
+  z-index: 1;
   position: relative;
-  top: -100px;
-  right: 250px;
+  top: 120px;
+  left: 120px;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(79, 127, 121, 0.8);
 }
+
+.img-back img {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  opacity: 0.7;
+}
+
+
 
 .testimonials {
   align-items: center;

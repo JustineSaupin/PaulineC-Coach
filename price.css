@@ -1,0 +1,54 @@
+.where {
+  margin-left: 32px;
+  padding: 32px;
+  text-align: center;
+  font-size: 18px;
+}
+.cours {
+  display: flex;
+  justify-content: center;
+}
+.cours img {
+  width: 340px;
+  margin: 16px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+}
+
+.forfait {
+  font-weight: bold;
+  width: 340px;
+  margin: 16px;
+  text-align: center;
+  background-color: #D3EEEB;
+  border-radius: 5px;
+  padding: 16px;
+  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8)
+}
+
+.forfait h4 {
+  color: #FF7477;
+  padding-bottom: 18px;
+}
+
+.forfait p {
+  color: #2D2D2A;
+  opacity: 0.8;
+}
+
+.link-price:hover {
+  color: #FF7477;
+}
+
+.link-price {
+  color: #2D2D2A;
+  text-decoration: none;
+}
+
+.service {
+  padding-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
