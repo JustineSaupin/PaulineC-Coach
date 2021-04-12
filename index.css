@@ -12,10 +12,12 @@
   padding: 10px 50px 10px 50px;
   border-bottom: solid 2px rgba(79, 127, 121, 0.5);
 }
+
 #logo {
-  height: 80px;
+  height: 100px;
   width: auto;
 }
+
 .menu-table {
   display: inline-block;
 }
