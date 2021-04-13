@@ -23,7 +23,7 @@
   </div>
 
   <div class="contact">
-    <form class="form" action="mailto:paulinec.coach@gmail.com" method=POST ENCTYPE="text/plain">
+    <form class="form" action="mailto:paulinec.coach@gmail.com" method=POST ENCTYPE="multipart/form-data" name=”EmailForm”>
       <h4>Parlons ensemble de votre projet :</h4>
       <div class="tel">
       <p>06 29 53 86 98</p>
@@ -31,15 +31,15 @@
       </div>
       <div>
         <label for="name">Votre nom:</label>
-        <input type="text" id="name" name="user_name" />
+        <input type="text" id="name" type=”text” size="20" name="ContactName" />
       </div>
       <div>
         <label for="mail">Votre E-mail :</label>
-        <input type="email" id="mail" name="user_email" />
+        <input type="email" id="mail" name="ContactEmail" />
       </div>
       <div>
         <label for="msg">Votre message :</label>
-        <textarea id="msg" name="user_message"></textarea>
+        <textarea id= "msg" name="ContactComment" rows="6" cols="20"></textarea>
       </div>
       <div class="button">
         <button type="submit">Envoyer</button>
@@ -47,6 +47,8 @@
     </form>
     <img src="images/paulinec2.jpg" alt="Pauline" height="500px">
   </div>
+
+
 
   <div class="footer">
     <div class="footer-links">
