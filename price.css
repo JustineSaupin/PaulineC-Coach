@@ -6,6 +6,7 @@
 }
 .cours {
   display: flex;
+  flex-wrap: flex-wrap;
   justify-content: center;
 }
 .cours img {
