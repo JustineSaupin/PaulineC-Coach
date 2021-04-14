@@ -5,27 +5,39 @@
   margin: 32px;
 }
 .activitie-card {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   text-decoration: none;
+  text-align: justify;
   color: black;
-  height: 300px;
+  height: 340px;
   width: 340px;
-  background-color: #D3EEEB;
+  background-color: #f3feff;
   margin: 16px;
   border-radius: 5px;
-  text-align: center;
-  padding: 16px;
+  padding: 24px;
   box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+}
+
+.top-card {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 8px;
+  color: #FF7477;
+  margin-bottom: 16px;
 }
 
 .activitie-card h4 {
   color: #FF7477;
+  text-shadow: 1px 1px 10px rgba(118,216,221,0.5);
 }
-.activities img {
-  height: 300px;
+
+.note {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+}
+
+.activities .photo {
+  height: 340px;
   width: 340px;
   overflow: hidden;
   background: cover;

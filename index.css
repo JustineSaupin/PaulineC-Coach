@@ -1,35 +1,48 @@
 .main-wrapper{
-  background: #9DD9D2;
+  background: linear-gradient(180deg, rgba(124,207,212,1) 0%, rgba(199,249,254,1) 100%);
   font-family: 'Poppins', sans-serif;
   color: #2D2D2A;
 }
 
-.menu {
+#index {
+  position: relative;
+}
+
+#navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100px;
   padding: 10px 50px 10px 50px;
-  border-bottom: solid 2px rgba(79, 127, 121, 0.5);
+  background-color: #88D6DB;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
 
 #logo {
   height: 100px;
   width: auto;
 }
 
-.menu-table {
+#navbar-table {
   display: inline-block;
   flex-wrap: flex-wrap;
 }
-.menu-table a {
+#navbar-table a {
   color: #2D2D2A;
   opacity: 0.85;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
 }
-.menu-table a:hover {
+#navbar-table a:hover {
   opacity: 1;
   color: #FF7477;
   border-bottom: 3px solid #FF7477;
@@ -41,13 +54,13 @@
   position: relative;
 }
 .img-back h2 {
-  color: #D3EEEB;
+  color: #f3feff;
   text-align: center;
   top: 40%;
   z-index: 1;
   position: relative;
   font-weight: bold;
-  text-shadow: 1px 1px 10px rgba(79, 127, 121, 0.8);
+  text-shadow: 1px 1px 10px rgba(118,216,221,0.5);
 }
 
 .img-back img {
@@ -57,27 +70,27 @@
   width:100%;
   }
 
-
-
 .testimonials {
   align-items: center;
   justify-content: center;
 }
+
 h3 {
   text-align: center;
   margin-top: 25px;
   color: #FF7477;
 }
+
 .testimonial-cards {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 0px 15px 0px 15px;
   margin-bottom: 32px;
 }
+
 .testimonial-card {
-  background-color: #D3EEEB;
+  background-color: #f3feff;
   font-size: 16px;
   width: 300px;
   margin: 16px;
@@ -87,6 +100,8 @@ h3 {
   padding: 16px;
   box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
 }
+
+
 .testimonial-card h6 {
   font-size: 12px;
   margin: 0;
@@ -100,7 +115,7 @@ h3 {
   height: 100px;
   padding: 0px 50px;
   color: #2D2D2A;
-  border-top: solid 2px rgba(79, 127, 121, 0.5);
+  border-top: solid 2px rgba(118,216,221,0.3);
 }
 .footer-links {
   display: flex;
