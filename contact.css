@@ -103,7 +103,8 @@ button {
      entre les étiquettes et les champs texte */
   margin-left: .5em;
   border-radius: 10px;
-  background-color: rgba(87,176,180,1);
+  background-color: #FF7477;
+  opacity: 0.9;
   border: none;
   padding: 12px 32px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -113,5 +114,6 @@ button {
 
 button:hover {
   background-color: #FF7477;
+  opacity: 1;
   color: #f3feff;
 }

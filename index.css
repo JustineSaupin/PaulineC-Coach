@@ -1,5 +1,8 @@
 .main-wrapper{
-  background: linear-gradient(180deg, rgba(124,207,212,1) 0%, rgba(199,249,254,1) 100%);
+  /*background: linear-gradient(180deg, rgba(124,207,212,1) 0%, rgba(199,249,254,1) 100%);*/
+  /*background: linear-gradient(0deg, rgba(217,249,252,1) 40%, rgba(145,207,213,1) 100%);*/
+  /*background: linear-gradient(0deg, rgba(217,249,252,1) 14%, rgba(120,216,222,1) 100%);*/
+  background: linear-gradient(0deg, rgba(232,253,255,1) 14%, rgba(146,229,236,1) 100%);
   font-family: 'Poppins', sans-serif;
   color: #2D2D2A;
 }
@@ -14,7 +17,8 @@
   justify-content: space-between;
   height: 100px;
   padding: 10px 50px 10px 50px;
-  background-color: #88D6DB;
+  /*background-color: #88D6DB;*/
+  background-color: rgba(146,229,236,1);
 }
 
 .sticky {
