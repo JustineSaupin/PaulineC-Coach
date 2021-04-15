@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  height: 80px;
   padding: 10px 50px 10px 50px;
   /*background-color: #88D6DB;*/
   background-color: rgba(146,229,236,1);
@@ -28,7 +28,6 @@
   width: 100%;
   margin-bottom: 16px;
 }
-
 
 #logo {
   height: 100px;
