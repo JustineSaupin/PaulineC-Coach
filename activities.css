@@ -15,6 +15,7 @@
   border-radius: 5px;
   padding: 24px;
   box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+  position: relative;
 }
 
 .top-card {
@@ -29,6 +30,20 @@
   color: #FF7477;
   text-shadow: 1px 1px 10px rgba(118,216,221,0.5);
 }
+
+.activitie-card a {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  color: #FF7477;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.activitie-card a:hover {
+  /*color: #d54042;*/
+  color: #FF7477;
+  opacity: 1;
+  }
 
 .note {
   display: inline-flex;
@@ -50,6 +65,6 @@
   transition: transform .2s; /* Animation */
 }
 .zoom:hover {
-  transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   color: black;
 }
