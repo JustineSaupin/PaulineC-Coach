@@ -1,9 +1,10 @@
+
 .activities {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 32px;
-}
+  }
+
 .activitie-card {
   text-decoration: none;
   text-align: justify;
