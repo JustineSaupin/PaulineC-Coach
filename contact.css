@@ -1,14 +1,22 @@
+#contact {
+  height : 500px;
+}
+
 .contact {
-  height: 500px;
   display: flex;
   justify-content: space-between;
+}
+
+.contact-form {
   align-items: center;
+  justify-content: center;
+  margin-left: 120px;
 }
 
 
 .contact img {
-  height: 500px;
-  width: auto;
+ /* height: 500px;
+  width: auto;*/
   box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
   border-radius: 0 5px 5px 0;
 }
@@ -16,15 +24,15 @@
 .contact h4 {
   color: #FF7477;
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 
 .tel {
   line-height: 6px;
   font-weight: bold;
-  margin: 42px;
-
+  text-align: center;
+  margin-bottom: 18px;
 }
 
 .tel a {
@@ -46,26 +54,20 @@ form {
   /*margin: 0 auto;
   width: 500px;*/
   /* Encadré pour voir les limites du formulaire */
-
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   /*background-color: #D3EEEB;*/
   text-align: center;
-  align-items: center;
-  align-content: center;
+
   /*box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);*/
-  padding: 48px;
-  margin-left: 88px;
+  /*padding: 48px;*/
 }
 
 
-form div + div {
-  margin-top: 16px;
-}
 
 label {
   /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
-  display: inline-block;
-  width: 120px;
+  width: 480px;
   text-align: center;
 }
 
@@ -82,7 +84,8 @@ input, textarea {
 
 input:focus, textarea:focus {
   /* Pour souligner légèrement les éléments actifs */
-  outline: solid 2px rgba(118,216,221,0.8));
+  outline: none;
+  box-shadow: 0 0 1px 2px rgba(0,0,0,0.5);
 }
 
 textarea {
@@ -92,19 +95,13 @@ textarea {
   height: 160px;
 }
 
-.button {
-  /* Pour placer le bouton à la même position que les champs texte */
-  padding-left: 120px; /* même taille que les étiquettes */
-
-}
-
 button {
   /* Cette marge supplémentaire représente grosso modo le même espace que celui
      entre les étiquettes et les champs texte */
-  margin-left: .5em;
   border-radius: 10px;
   background-color: #FF7477;
-  opacity: 0.9;
+  opacity: 0.85;
+  color: #f3feff;
   border: none;
   padding: 12px 32px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);

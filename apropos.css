@@ -1,13 +1,17 @@
+#apropos {
+  background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
+  background-size: cover;
+  padding-top: 80px;
+}
+
 .apropos {
   display: flex;
-  height: 100%;
 }
+
 .description {
   align-items: center;
-  width:650px;
-  margin-right: 50px;
-  height: 100%;
-  margin-top: 50px;
+  width: 500px;
+  margin-left: 50px;
 }
 .description-card {
   height: auto;
@@ -22,8 +26,9 @@
   text-align: right;
 }
 
+
 .apropos img {
-  width: 550px;
-  height: 100%;
   margin-right: 50px;
+  clip-path: polygon(31% 3%, 88% 19%, 100% 100%, 5% 100%);
+  box-shadow: 0 0 10px rgba(79, 127, 121, 0.5);
 }

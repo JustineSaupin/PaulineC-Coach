@@ -37,7 +37,7 @@
   <section id="activities">
     <h2>Je vous propose différentes activités</h2>
     <div class="activities">
-      <div class="activitie-card zoom" href="#price">
+      <div class="activitie-card zoom">
         <div class="top-card">
           <h4>Renforcement</h4>
           <div class="note">
@@ -48,7 +48,7 @@
         <p>Activité qui vous permet d’améliorer vos capacités physiques tout en travaillant un ou plusieurs muscles. Vous serez plus résistant, plus mobile tout en ayant une silhouette plus harmonieuse.</p>
         <a href="#contact">En savoir plus</a>
       </div>
-      <div href="#price" class="activitie-card zoom">
+      <div class="activitie-card zoom">
         <div class="top-card">
         <h4>Cardio-training</h4>
           <div class="note">
@@ -61,7 +61,7 @@
         <a href="#contact">En savoir plus</a>
       </div>
       <img src="images/coursco.jpg" alt="pauline" class="photo">
-      <div href="#price" class="activitie-card zoom">
+      <div class="activitie-card zoom">
         <div class="top-card">
         <h4>Body combat</h4>
           <div class="note">
@@ -73,7 +73,7 @@
         <p>Envie de vous défouler et de réduire votre stress tout en brûlant un maximum de calories, le combat est fait pour vous ! Cette pratique ludique et complète, basée sur des mouvements des sports de combat, permet un travail cardio-vasculaire et musculaire. Place à l’action !</p>
         <a href="#contact">En savoir plus</a>
       </div>
-      <div href="#price" class="activitie-card zoom">
+      <div class="activitie-card zoom">
         <div class="top-card">
         <h4>Urban-training</h4>
           <div class="note">
@@ -84,7 +84,7 @@
         <p>L’idée : se dépenser en plein air en utilisant comme terrain de jeu notre environnement et le mobilier urbain. Cette approche permet de mêler le cardio et le renforcement musculaire de manière divertissante à travers un parcours diversifié et à la découverte de nouveaux espaces.</p>
         <a href="#contact">En savoir plus</a>
       </div>
-      <div href="#price" class="activitie-card zoom">
+      <div class="activitie-card zoom">
         <div class="top-card">
         <h4>Stretching</h4>
           <div class="note">
@@ -95,7 +95,7 @@
         <a href="#contact">En savoir plus</a>
       </div>
       <img src="images/workoutduo.jpg" alt="pauline" class="photo">
-      <div href="#price" class="activitie-card zoom">
+      <div class="activitie-card zoom">
         <div class="top-card">
         <h4>Pilates</h4>
           <div class="note">
@@ -106,7 +106,7 @@
         <p>Le Pilates est une méthode douce qui vise à renforcer les chaînes profondes du corps. Votre silhouette s’harmonise tout en vous apportant une grande force intérieure. Cette pratique vous amène à travailler 3 axes principaux : votre corps, votre mental et votre esprit.</p>
         <a href="#contact">En savoir plus</a>
       </div>
-      <div href="#price" class="activitie-card zoom">
+      <div class="activitie-card zoom">
         <div class="top-card">
           <h4>Gym douce</h4>
           <div class="note">
@@ -154,7 +154,7 @@
   </section>
 
   <section id="apropos">
-    <div class="apropos" id="apropos">
+    <div class="apropos">
       <img src="images/paulinec.jpeg" alt="Pauline" height="500px">
       <div class="description">
         <div class="description-card">
@@ -181,6 +181,7 @@
   <section id="price">
     <div class="price">
       <div class="where">
+        <h2>Tarifs 2021</h2>
         <p>Ensemble nous définirons le lieu de pratique : extérieur : plage, forêt, nature (parfait pour s’évader et se ressourcer) ou au domicile, si le temps n'est pas favorable ou pour plus de facilité. Comptez sur moi pour créer l'atmosphère adaptée à votre séance.</p>
       </div>
       <div class="cours">
@@ -197,7 +198,7 @@
           <p>1 heure (minimum 4 personnes / maximum 10 personnes)</p>
           <p>Séances de renforcement musculaire, circuit-training, stretching ou pilates.</p>
           <p>12€ / personne</p>
-          <a href="contact.html" class="link-price">Me contacter pour les groupes.</a>
+          <a href="#contact" class="link-price">Me contacter pour les groupes.</a>
         </div>
       </div>
       <div class="service">
@@ -209,30 +210,31 @@
 
   <section id="contact">
     <div class="contact">
-      <form class="form" action="mailto:paulinec.coach@gmail.com" method=POST ENCTYPE="multipart/form-data" name=”EmailForm”>
+      <div class="contact-form">
         <div class="tel">
-        <h4>Parlons ensemble de votre projet :</h4>
-        <p><a href="https://www.instagram.com/paulineccoach/?hl=fr"><i class="fab fa-instagram"></i></a> | <a href="https://www.facebook.com/PaulineCcoach/"><i class="fab fa-facebook"></i></a></p>
-        <p>06 29 53 86 98</p>
-        <p>paulinec.coach@gmail.com</p>
+          <h4>Parlons ensemble de votre projet :</h4>
+          <p><a href="https://www.instagram.com/paulineccoach/?hl=fr"><i class="fab fa-instagram"></i></a> | <a href="https://www.facebook.com/PaulineCcoach/"><i class="fab fa-facebook"></i></a></p>
+          <p>06 29 53 86 98</p>
+          <p>paulinec.coach@gmail.com</p>
         </div>
-        <div>
-          <label for="name">Votre nom:</label>
-          <input type="text" id="name" type=”text” size="20" name="ContactName" />
+
+        <div class="form">
+          <form action="https://formspree.io/f/xayanbqe" method="POST">
+            <label>
+              Votre nom : <input type="text" name="contact">
+            </label>
+            <label>
+              Votre E-mail : <input type="email" name="_replyto">
+            </label>
+            <label>
+              Votre message : <textarea name="message"></textarea>
+            </label>
+            <button type="submit">Envoyer</button>
+          </form>
         </div>
-        <div>
-          <label for="mail">Votre E-mail :</label>
-          <input type="email" id="mail" name="ContactEmail" />
-        </div>
-        <div>
-          <label for="msg">Votre message :</label>
-          <textarea id= "msg" name="ContactComment" rows="6" cols="20"></textarea>
-        </div>
-        <div class="button">
-          <button type="submit">Envoyer</button>
-        </div>
-      </form>
+      </div>
       <img src="images/paulinec2.jpg" alt="Pauline" height="500px">
+
     </div>
   </section>
 

@@ -1,9 +1,18 @@
+#activities{
+  background-size: cover;
+  background: linear-gradient(0deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
+  padding-top: 60px;
+}
 
 .activities {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   }
+
+#activities h2 {
+  margin-bottom: 32px;
+}
 
 .activitie-card {
   text-decoration: none;
@@ -15,7 +24,7 @@
   margin: 16px;
   border-radius: 5px;
   padding: 24px;
-  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+  box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
   position: relative;
 
 }
