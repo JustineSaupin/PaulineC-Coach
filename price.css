@@ -6,10 +6,9 @@
 }
 
 .where {
-  margin-left: 32px;
-  padding: 0 32px;
+  padding: 0 100px;
   text-align: center;
-  font-size: 18px;
+
 }
 
 .where h2 {
@@ -21,7 +20,7 @@
   flex-wrap: flex-wrap;
   justify-content: center;
 }
-.cours img {
+.cours .photo {
   width: 340px;
   margin: 16px;
   border-radius: 5px;
@@ -36,7 +35,8 @@
   background-color: #f3feff;
   border-radius: 5px;
   padding: 16px;
-  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8)
+  box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
+  position: relative;
 }
 
 .forfait h4 {
@@ -48,19 +48,26 @@
   color: #2D2D2A;
   opacity: 0.8;
 }
+.forfait .seance {
+  position: absolute;
+  bottom: -40px;
+  right: 80px;
+}
 
 .link-price:hover {
   color: #FF7477;
+  opacity: 1;
 }
 
 .link-price {
-  color: #2D2D2A;
+  color: #FF7477;
   text-decoration: none;
+  opacity: 0.6;
 }
 
 .service {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
+  font-size: 18px;
 }

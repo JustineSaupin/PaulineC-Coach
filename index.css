@@ -7,24 +7,6 @@
   color: #2D2D2A;
 }
 
-
-
-#contact {
-   background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
-   background-size: cover;
-
-}
-
-/*#contact {
-  padding-top: 56px;
-  padding-bottom: 56px;
-  background-size: cover;
- }*/
-
-/*#contact, #price, #apropos {
-  height: 100vh;
-}
-*/
 #index {
   position: relative;
 }
