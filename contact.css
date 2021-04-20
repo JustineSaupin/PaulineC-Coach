@@ -47,10 +47,10 @@
 
 
 .tel {
-  line-height: 16px;
+  line-height: 8px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 22px;
+  margin-bottom: 18px;
 }
 
 .tel a {
@@ -109,7 +109,7 @@ textarea {
   /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
   vertical-align: top;
   /* Pour donner assez de place pour écrire du texte */
-  height: 160px;
+  height: 120px;
 }
 
 button {
