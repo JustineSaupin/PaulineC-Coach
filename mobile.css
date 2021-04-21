@@ -1,0 +1,89 @@
+
+@media (max-width: 480px) {
+
+.main-wrapper {
+position: relative ;
+width: 480px ;
+margin: auto ;
+background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
+}
+
+#navbar {
+  width: 480px ;
+}
+
+#navbar-table a {
+display: none ;
+}
+
+/*ACTIVITIES*/
+
+#activities h2 {
+  font-size: 18px;
+}
+
+.activitie-card {
+  text-decoration: none;
+  text-align: justify;
+  color: black;
+  height: 240px;
+  width: 240px;
+  background-color: #f3feff;
+  margin: 16px;
+  border-radius: 5px;
+  padding: 24px;
+  box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
+  position: relative;
+}
+
+.activitie-card p {
+  font-size: 10px;
+}
+
+.top-card {
+  align-items: center;
+  flex-direction: column;
+  color: #FF7477;
+  margin-bottom: 16px;
+}
+
+.activitie-card h4 {
+  color: #FF7477;
+  text-shadow: 1px 1px 10px rgba(118,216,221,0.5);
+}
+
+.activitie-card a {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  color: #FF7477;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.activitie-card a:hover {
+  color: #FF7477;
+  opacity: 1;
+  }
+
+.note {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.activities .photo {
+  height: 340px;
+  width: 340px;
+  overflow: hidden;
+  background: cover;
+  margin: 16px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+}
+
+.testimonials {
+  display: none;
+}
+
+
+}
