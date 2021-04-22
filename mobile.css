@@ -23,7 +23,7 @@ display: none ;
 #navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 3em;
   padding: 5% 10%;
   /*background-color: #88D6DB;*/
@@ -46,9 +46,9 @@ display: none ;
 
 
 .img-back {
+  display: flex;
   overflow: hidden;
   width: 100vw;
-  position: relative;
 }
 
 .img-back h1 {
@@ -100,17 +100,14 @@ display: none ;
   color: black;
   width:80vw;
   background-color: #f3feff;
-  margin: 2em;
   border-radius: 5px;
-  padding: 2em;
   box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
   position: relative;
 }
 
 .activitie-card p {
   font-size: 1em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 16px;
 }
 
 .top-card {
@@ -123,6 +120,7 @@ display: none ;
   color: #FF7477;
   text-shadow: 1px 1px 10px rgba(118,216,221,0.5);
   font-size: 1.5em;
+  margin : 0;
 
 }
 
@@ -150,10 +148,9 @@ display: none ;
 }
 
 .activities .photo {
-  width: 100vw;
+  width: 100%;
+  margin: 0;
   overflow: hidden;
-  background: cover;
-  margin-top: 16px;
 }
 
 .testimonials {
