@@ -50,6 +50,10 @@
   color: #2D2D2A;
   opacity: 0.8;
 }
+
+.forfait span {
+  color: #f3feff;
+}
 .forfait .seance {
   position: absolute;
   bottom: -50px;
