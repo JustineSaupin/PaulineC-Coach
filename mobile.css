@@ -160,7 +160,7 @@ display: none ;
 /*A PROPOS*/
 
 .apropos {
-  width: 100%
+  width: 100%;
   padding-top: 80px;
   display: flex;
   flex-wrap: wrap;
@@ -187,8 +187,81 @@ display: none ;
 .apropos img {
   width: 50%;
   height: 50%;
-  box-shadow: 0;
 }
+
+/* TARIFS */
+ #price {
+  padding-top: 80px;
+  width: 100%;
+}
+
+.where {
+  text-align: center;
+  padding: 0;
+  width: 80vw;
+  margin: auto;
+}
+
+.where h2 {
+  margin: 16px;
+  }
+
+.cours {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.cours .photo {
+  display: none;
+}
+
+.forfait {
+  font-weight: bold;
+  width: 80vw;
+  margin: 40px;
+  text-align: center;
+  background-color: #f3feff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
+}
+
+.forfait h4 {
+  color: #FF7477;
+  padding-bottom: 18px;
+}
+
+.forfait p {
+  color: #2D2D2A;
+  opacity: 0.8;
+  margin-bottom: 16px;
+}
+.forfait .seance {
+  position: absolute;
+  bottom: -50px;
+  left: 110px;
+}
+
+.link-price {
+  color: #FF7477;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-size: 0.8em;
+  margin-right: 56px;
+}
+.service img {
+  height: 60px;
+}
+
+
 
 
 }
