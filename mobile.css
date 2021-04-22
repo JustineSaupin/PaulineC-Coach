@@ -157,4 +157,39 @@ display: none ;
   display: none;
 }
 
+/*A PROPOS*/
+
+.apropos {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.description {
+  align-items: center;
+  width: 100%;
+}
+
+.description-card {
+  height: auto;
+  margin-top: 16px;
+  text-align: justify;
+  align-items: center;
+  color: #2D2D2A;
+}
+
+.description-card h3 {
+  color: #FF7477;
+  text-align: right;
+}
+
+.apropos img {
+  clip-path: circle(50% at 50% 50%);
+  width: 50%;
+  height: 50%;
+  box-shadow: 0;
+}
+
+
 }
