@@ -3,53 +3,127 @@
 
 .main-wrapper {
 position: relative ;
-width: 480px ;
-margin: auto ;
+width: 100vw ;
+margin: 0 ;
 background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
 }
 
 #navbar {
-  width: 480px ;
+  width: 100vw ;
 }
 
 #navbar-table a {
 display: none ;
 }
 
+#index {
+  position: relative;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3em;
+  padding: 5% 10%;
+  /*background-color: #88D6DB;*/
+  background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
+  box-shadow: 0px 0px 10px 3px  rgba(0, 0, 0, 0.2);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+#logo {
+  height: 60px;
+  width: auto;
+}
+
+
+.img-back {
+  overflow: hidden;
+  width: 100vw;
+  position: relative;
+}
+
+.img-back h1 {
+  color: #f3feff;
+  text-align: center;
+  bottom: 6%;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  position: absolute;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+  font-size: 1.5em;
+}
+
+.img-back img {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  }
+
+.testimonials {
+  display: none;
+}
+
+
+
+.footer {
+  background: linear-gradient(0deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
+  font-size: 0.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: rgba(0, 0, 0, 0.5);
+  border-top: solid 2px rgba(118,216,221,0.3);
+}
+
 /*ACTIVITIES*/
 
 #activities h2 {
-  font-size: 18px;
+  font-size: 1.5em;
 }
 
 .activitie-card {
   text-decoration: none;
   text-align: justify;
   color: black;
-  height: 240px;
-  width: 240px;
+  width:80vw;
   background-color: #f3feff;
-  margin: 16px;
+  margin: 2em;
   border-radius: 5px;
-  padding: 24px;
+  padding: 2em;
   box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
   position: relative;
 }
 
 .activitie-card p {
-  font-size: 10px;
+  font-size: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .top-card {
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
   color: #FF7477;
-  margin-bottom: 16px;
 }
 
 .activitie-card h4 {
   color: #FF7477;
   text-shadow: 1px 1px 10px rgba(118,216,221,0.5);
+  font-size: 1.5em;
+
 }
 
 .activitie-card a {
@@ -71,19 +145,19 @@ display: none ;
   left: 15px;
 }
 
+.note img {
+  width: 5vw;
+}
+
 .activities .photo {
-  height: 340px;
-  width: 340px;
+  width: 100vw;
   overflow: hidden;
   background: cover;
-  margin: 16px;
-  border-radius: 5px;
-  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+  margin-top: 16px;
 }
 
 .testimonials {
   display: none;
 }
-
 
 }

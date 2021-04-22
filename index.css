@@ -5,6 +5,7 @@
   /*background: linear-gradient(0deg, rgba(232,253,255,1) 14%, rgba(146,229,236,1) 100%);*/
   font-family: 'Poppins', sans-serif;
   color: #2D2D2A;
+  width: 100vw;
 }
 
 #index {
@@ -99,7 +100,7 @@ h2 {
 .testimonial-card {
   background-color: #f3feff;
   font-size: 16px;
-  width: 300px;
+  width: 20%;
   margin: 16px;
   border-radius: 5px;
   text-align: center;
@@ -109,7 +110,7 @@ h2 {
 }
 
 
-.testimonial-card h6 {
+.testimonial-card h4 {
   font-size: 12px;
   margin: 0;
   padding: 0;
