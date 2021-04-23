@@ -47,28 +47,26 @@ display: none ;
 
 .img-back {
   display: flex;
-  overflow: hidden;
   width: 100%;
+  height: auto;
 }
 
 .img-back h1 {
   color: #f3feff;
+  font-size: 0.8em;
   text-align: center;
-  bottom: 6%;
-  left: 0;
-  right: 0;
-  z-index: 2;
+  bottom: 35%;
   position: absolute;
   font-weight: bold;
   text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
-  font-size: 1.5em;
 }
 
 .img-back img {
   position: relative;
   align-items: center;
   justify-content: center;
-  width:100%;
+  overflow: hidden;
+  height: 300px;
   }
 
 .testimonials {
@@ -170,7 +168,7 @@ display: none ;
 
 .description {
   align-items: center;
-  width: 100%;
+  width: 80%;
 }
 
 .description-card {
@@ -189,6 +187,7 @@ display: none ;
 .apropos img {
   width: 50%;
   height: 50%;
+  clip-path: circle(50% at 50% 50%);
 }
 
 /* TARIFS */
@@ -198,9 +197,9 @@ display: none ;
 }
 
 .where {
-  text-align: center;
+  text-align: justify;
+  width: 80%;
   padding: 0;
-  width: auto;
   margin: auto;
 }
 
