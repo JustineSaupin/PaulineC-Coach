@@ -83,7 +83,6 @@ label {
   /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
 
   text-align: center;
-  margin-bottom: 16px;
   display: contents;
 }
 
@@ -95,6 +94,8 @@ input, textarea {
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   background-color: #f3feff;
   border-radius : 5px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 input:focus, textarea:focus {
