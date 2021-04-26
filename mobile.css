@@ -193,7 +193,7 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 }
 
 .activities .photo {
-  width: 100%;
+  width: 100vw;
   height: auto;
   margin: 0;
   overflow: hidden;
