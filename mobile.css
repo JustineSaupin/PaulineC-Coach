@@ -194,11 +194,10 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 
 .activities .photo {
   width: 100vw;
-  height: auto;
-  margin: 0;
   overflow: hidden;
   box-shadow: none;
   border-radius: 0px;
+  margin:0;
 }
 
 .testimonials {
@@ -233,7 +232,6 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 }
 
 .apropos img {
-  width: 50%;
   height: 50%;
   clip-path: circle(50% at 50%);
   margin: -15px 30px;
