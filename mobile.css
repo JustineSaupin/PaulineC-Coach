@@ -233,7 +233,8 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 
 .apropos img {
   height: 50%;
-  clip-path: circle(50% at 50%);
+  width: 50%;
+  clip-path: circle(50% at 50% 50%);
   margin: -15px 30px;
   padding: 0px;
 }
