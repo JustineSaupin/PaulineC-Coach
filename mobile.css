@@ -18,16 +18,16 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
   display: block;
   background-color: #2D2D2A;
   opacity: 0.85;
-  padding-top: 12px;
+  padding: 32px 20px 12px 20px;
 }
 
 #myLinks a {
-  font-size: 12px;
+  font-size: 15px;
   display: flex;
   flex-flow: column;
   text-decoration: none;
   text-align: left;
-  color: white;
+  color: #f3feff;
 }
 
 #myLinks a:hover {
@@ -46,11 +46,13 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 
 /* Style the hamburger menu */
 .topnav a.icon {
+  display: block;
   position: absolute;
   right: 10px;
   top:10px;
   background: black;
   opacity: 0.8;
+  margin-left: 10px;
 }
 
 #index {
@@ -61,10 +63,9 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 30;
+  z-index: 10;
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 80px;
   padding: 5% 10%;
   /*background-color: #88D6DB;*/
@@ -83,7 +84,7 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
   height: 60px;
   width: auto;
   position: absolute;
-  left: 10px;
+  left: 20px;
   top:10px;
 }
 
@@ -98,7 +99,7 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
   color: #f3feff;
   font-size: 1.2em;
   text-align: center;
-  bottom: 15%;
+  bottom: 2%;
   position: absolute;
   font-weight: bold;
   text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
@@ -188,13 +189,16 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 }
 
 .note img {
-  width: 5vw;
+  width: 25px;
 }
 
 .activities .photo {
   width: 100%;
+  height: auto;
   margin: 0;
   overflow: hidden;
+  box-shadow: none;
+  border-radius: 0px;
 }
 
 .testimonials {
@@ -231,7 +235,8 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 .apropos img {
   width: 50%;
   height: 50%;
-  clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50%);
+  margin: 0px 30px;
 }
 
 /* TARIFS */
@@ -322,11 +327,6 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 
 .contact img {
   display: none;
-  /*width: 40%;
-  height: auto;
-  position: absolute;
-  right: -13%;
-  top: 25%;*/
 }
 
 .contact h4 {
@@ -358,8 +358,6 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
   text-decoration: none;
   font-size: 32px;
   padding: 0px 10px;
-  margin-bottom: 16px;
-  margin-top: 16px;
 }
 
 .tel a:hover {
@@ -373,12 +371,11 @@ form {
   /*margin: 0 auto;
   width: 500px;*/
   /* Encadré pour voir les limites du formulaire */
-  padding-top: 48px;
+  padding-top: 32px;
   display: flex;
   flex-direction: column;
   text-align: center;
   padding-bottom: 48px;
-  width: 80%;
   margin : auto;
 }
 
@@ -413,7 +410,7 @@ textarea {
   /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
   vertical-align: top;
   /* Pour donner assez de place pour écrire du texte */
-  height: 120px;
+  height: 140px;
 }
 
 button {
