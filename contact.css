@@ -31,12 +31,16 @@
 }
 
 
-.contact img {
+.contact-photo2 {
  /* height: 500px;
   width: auto;*/
   height: 100vh;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   border-radius: 5px;
+}
+
+.contact-photo1 {
+  display: none;
 }
 
 .contact h4 {

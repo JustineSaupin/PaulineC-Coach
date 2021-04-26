@@ -16,14 +16,15 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 
 #myLinks {
   display: block;
-  padding-top: 32px;
+  padding-top: 22px;
 }
 
 #myLinks a {
-  font-size: 10px;
+  font-size: 12px;
   display: flex;
   flex-flow: column;
   text-decoration: none;
+  text-align: right;
 }
 
 #myLinks a:hover {
@@ -52,7 +53,7 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 }
 
 #navbar {
-  width: 100vw;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 99;
