@@ -23,6 +23,7 @@
 
 .cours .photo {
   width: 340px;
+  height: auto;
   margin: 16px;
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
