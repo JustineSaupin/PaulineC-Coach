@@ -5,6 +5,7 @@
 @import 'contact.css';
 
 @import 'mobile.css';
+@import 'tablet.css';
 
 /* Landscape phones and down */
 /*@media (max-width: 480px) { ... }*/

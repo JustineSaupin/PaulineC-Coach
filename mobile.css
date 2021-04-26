@@ -1,5 +1,5 @@
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
 .main-wrapper {
 position: relative ;
@@ -9,25 +9,44 @@ padding: 0;
 background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
 }
 
-#navbar {
-  width: 100vw ;
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
 }
 
-#navbar-table a {
-display: none ;
+/* Style navigation menu links */
+.topnav a {
+  color: rgb(182 243 249);
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 30%;
 }
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  opacity: 0.8;
+}
+
+
+
+/*#navbar-table a {
+display: none ;
+}*/
 
 #index {
   position: relative;
 }
 
 #navbar {
+  width: 100vw;
   position: fixed;
   top: 0;
   z-index: 99;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   height: 80px;
   padding: 5% 10%;
   /*background-color: #88D6DB;*/
@@ -281,17 +300,18 @@ display: none ;
 }
 
 .contact img {
-  width: 40%;
+  display: none;
+  /*width: 40%;
   height: auto;
   position: absolute;
   right: -13%;
-  top: 25%;
+  top: 25%;*/
 }
 
 .contact h4 {
   color: #FF7477;
   text-align: center;
-  margin-bottom: 86px;
+  margin-bottom: 32px;
   width: 70%;
 }
 .icons {
