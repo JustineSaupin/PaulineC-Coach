@@ -1,5 +1,5 @@
 // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {myNavbar()};
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
@@ -8,7 +8,7 @@ var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
+function myNavbar() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
@@ -20,7 +20,8 @@ function myFunction() {
 // BURGER MENU :
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
+
+function displayMenu() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
@@ -28,3 +29,4 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+

@@ -14,26 +14,38 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
   display: none;
 }
 
+#myLinks {
+  display: block;
+  padding-top: 32px;
+}
+
+#myLinks a {
+  font-size: 10px;
+  display: flex;
+  flex-flow: column;
+  text-decoration: none;
+}
+
+#myLinks a:hover {
+  color: #FF7477;
+  border-bottom: none;
+}
+
 /* Style navigation menu links */
 .topnav a {
   color: rgb(182 243 249);
-  padding: 14px 14px;
+  padding: 15px 15px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
   border-radius: 30%;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
+  display : flex;
   background: black;
   opacity: 0.8;
 }
-
-
-
-/*#navbar-table a {
-display: none ;
-}*/
 
 #index {
   position: relative;
@@ -312,7 +324,7 @@ display: none ;
   color: #FF7477;
   text-align: center;
   margin-bottom: 32px;
-  width: 70%;
+
 }
 .icons {
   margin-bottom: 48px;
@@ -321,7 +333,7 @@ display: none ;
 .tel {
   line-height: 12px;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   margin-bottom: 32px;
 }
 

@@ -35,6 +35,10 @@
   margin-bottom: 16px;
 }
 
+.topnav a.icon {
+  display: none;
+}
+
 #logo {
   height: 100px;
   width: auto;
