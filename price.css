@@ -19,19 +19,20 @@
   flex-wrap: flex-wrap;
   justify-content: center;
   margin-bottom: 32px;
+  align-items: center;
 }
 
 .cours .photo {
-  width: 340px;
-  height: auto;
+  height: fit-content;
   margin: 16px;
   border-radius: 5px;
-  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+  box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
 }
 
 .forfait {
-  font-weight: bold;
   width: 340px;
+  height: 300px;
+  font-weight: bold;
   margin: 16px;
   text-align: center;
   background-color: #f3feff;
@@ -54,6 +55,7 @@
 .forfait span {
   color: #f3feff;
 }
+
 .forfait .seance {
   position: absolute;
   bottom: -50px;
