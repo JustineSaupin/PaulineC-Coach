@@ -4,21 +4,8 @@
   padding-top: 80px;
 }
 
-/*#contact {
-  padding-top: 56px;
-  padding-bottom: 56px;
-  background-size: cover;
- }*/
-
-/*#contact, #price, #apropos {
-  height: 100vh;
-}
-*/
-
-
-
-
 .contact {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,8 +13,9 @@
 
 .contact-form {
   align-items: center;
-  justify-content: center;
-  margin-left: 180px;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 10px;
 }
 
 
@@ -81,7 +69,8 @@ form {
   flex-direction: column;
   /*background-color: #D3EEEB;*/
   text-align: center;
-  padding-bottom: 48px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 
