@@ -16,7 +16,9 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 
 #myLinks {
   display: block;
-  padding-top: 22px;
+  background-color: #2D2D2A;
+  opacity: 0.85;
+  padding-top: 12px;
 }
 
 #myLinks a {
@@ -24,7 +26,8 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
   display: flex;
   flex-flow: column;
   text-decoration: none;
-  text-align: right;
+  text-align: left;
+  color: white;
 }
 
 #myLinks a:hover {
@@ -43,7 +46,9 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  display : flex;
+  position: absolute;
+  right: 10px;
+  top:10px;
   background: black;
   opacity: 0.8;
 }
@@ -56,10 +61,10 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 99;
+  z-index: 30;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 80px;
   padding: 5% 10%;
   /*background-color: #88D6DB;*/
@@ -77,6 +82,9 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 #logo {
   height: 60px;
   width: auto;
+  position: absolute;
+  left: 10px;
+  top:10px;
 }
 
 
