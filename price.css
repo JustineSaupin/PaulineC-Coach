@@ -1,6 +1,8 @@
- #price {
+#price {
  /* padding-top: 56px;*/
   background-size: cover;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(223,252,255,1)), to(rgba(166,226,231,1)));
+  background: -o-linear-gradient(bottom, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
   background: linear-gradient(0deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
   padding-top: 80px;
 }
@@ -15,18 +17,26 @@
   }
 
 .cours {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: flex-wrap;
-  justify-content: center;
+  -ms-flex-wrap: flex-wrap;
+      flex-wrap: flex-wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 32px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .cours .photo {
   width: 220px;
   margin: 16px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
+  -webkit-box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
+          box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
 }
 
 .forfait {
@@ -38,7 +48,8 @@
   background-color: #f3feff;
   border-radius: 5px;
   padding: 16px;
-  box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
+  -webkit-box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
+          box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
   position: relative;
 }
 
@@ -63,10 +74,16 @@
 }
 
 .zoom2 {
-  transition: transform .3s; /* Animation */
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  -o-transition: transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s; /* Animation */
 }
 .zoom2:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 
@@ -82,8 +99,14 @@
 }
 
 .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 18px;
 }

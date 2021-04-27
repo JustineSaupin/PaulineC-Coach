@@ -1,15 +1,21 @@
 #apropos {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(223,252,255,1)), to(rgba(166,226,231,1)));
+  background: -o-linear-gradient(top, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
   background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
   background-size: cover;
   padding-top: 80px;
 }
 
 .apropos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .description {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   /*width: 500px;*/
   margin-left: 50px;
   margin-right: 50px;
@@ -18,7 +24,9 @@
   height: auto;
   margin-top: 16px;
   text-align: justify;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #2D2D2A;
 }
 
@@ -28,6 +36,7 @@
 }
 
 .apropos img {
-  clip-path: polygon(31% 3%, 88% 19%, 100% 100%, 5% 100%);
+  -webkit-clip-path: polygon(31% 3%, 88% 19%, 100% 100%, 5% 100%);
+          clip-path: polygon(31% 3%, 88% 19%, 100% 100%, 5% 100%);
   margin:0;
 }

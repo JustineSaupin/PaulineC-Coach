@@ -1,13 +1,20 @@
 #activities{
   background-size: cover;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(223,252,255,1)), to(rgba(166,226,231,1)));
+  background: -o-linear-gradient(bottom, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
   background: linear-gradient(0deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
   padding-top: 60px;
 }
 
 .activities {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   }
 
 #activities h2 {
@@ -24,14 +31,19 @@
   margin: 16px;
   border-radius: 5px;
   padding: 24px;
-  box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
+  -webkit-box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
+          box-shadow: 0 0 10px rgba(79, 127, 121, 0.8);
   position: relative;
 
 }
 
 .top-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding-right: 8px;
   color: #FF7477;
   margin-bottom: 16px;
@@ -56,6 +68,8 @@
   }
 
 .note {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   position: absolute;
   bottom: 15px;
@@ -74,13 +88,20 @@
   background: cover;
   margin: 16px;
   border-radius: 5px;
-  box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+  -webkit-box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
+          box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
 }
 
 .zoom {
-  transition: transform .2s; /* Animation */
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  -o-transition: transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s; /* Animation */
 }
 .zoom:hover {
-  transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  -webkit-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+          transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   color: black;
 }
