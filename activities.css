@@ -85,7 +85,7 @@
   height: 340px;
   width: 340px;
   overflow: hidden;
-  background: cover;
+  /*background: cover;*/
   margin: 16px;
   border-radius: 5px;
   -webkit-box-shadow: 0 0 20px rgba(79, 127, 121, 0.8);
