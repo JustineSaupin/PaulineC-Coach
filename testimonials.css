@@ -1,0 +1,131 @@
+.testimonials {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+          margin-bottom: 30px;
+}
+
+/*.testimonial-cards {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 15px 0px 15px;
+}
+
+.testimonial-card {
+  font-size: 16px;
+  margin: 16px;
+  border-radius: 5px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+  -webkit-box-shadow: 0 0 10px rgba(79, 127, 121, 0.5);
+          box-shadow: 0 0 10px rgba(79, 127, 121, 0.5);
+}*/
+
+
+.testimonial-card h4 {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.section-title {
+    text-align: center;
+    margin: 60px;
+}
+
+.section-borders span {
+    height: 5px;
+    background: #FF7477;
+    width: 40px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.section-borders span.black-border {
+    background: #2D2D2A;
+    width: 30px;
+    margin: 0 6px;
+
+}
+
+.client-testimonial-carousel .owl-dots button {
+    height: 5px;
+    background: #FF7477 !important;
+    width: 20px;
+    display: inline-block;
+    margin: 5px;
+    transition: .2s;
+    border-radius: 2px;
+}
+
+.client-testimonial-carousel button.owl-dot.active {
+    background: #2D2D2A !important;
+    width: 30px;
+}
+
+.client-testimonial-carousel .owl-dots {
+    text-align: center;
+    margin-top: 25px
+}
+
+.single-testimonial-item {
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 2px #2D2D2A;
+    margin: 2px;
+    padding: 20px;
+    font-style: italic;
+    padding-left: 85px;
+    background-color: #ddfbfe;
+    width: 320px;
+}
+
+.single-testimonial-item:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f10e";
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    font-size: 20px;
+    color: #FF7477;
+    line-height: 30px;
+    margin-top: -15px;
+}
+
+.single-testimonial-item:after {
+    background: #2D2D2A;
+    content: "";
+    height: 70%;
+    left: 60px;
+    position: absolute;
+    top: 10%;
+    width: 1px;
+}
+
+.single-testimonial-item h3 {
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+.single-testimonial-item h3 span {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 5px;
+}

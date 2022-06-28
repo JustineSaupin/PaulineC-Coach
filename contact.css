@@ -108,7 +108,9 @@ label {
   /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
 
   text-align: center;
-  display: contents;
+  display: flex !important;
+  margin-bottom: 0.5rem;
+  flex-direction: column !important;
 }
 
 input, textarea {
@@ -142,7 +144,7 @@ textarea {
 button {
   /* Cette marge supplémentaire représente grosso modo le même espace que celui
      entre les étiquettes et les champs texte */
-  border-radius: 10px;
+  border-radius: 10px !important;
   background-color: #FF7477;
   opacity: 0.85;
   color: #f3feff;
