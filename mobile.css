@@ -54,8 +54,7 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
 .topnav a.icon {
   display: block;
   position: absolute;
-  right: 10px;
-  top:10px;
+  right: 30px;
   background: black;
   opacity: 0.8;
   margin-left: 10px;
@@ -76,8 +75,6 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 80px;
-  padding: 5% 10%;
   /*background-color: #88D6DB;*/
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(223,252,255,1)), to(rgba(166,226,231,1)));
   background: -o-linear-gradient(top, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);

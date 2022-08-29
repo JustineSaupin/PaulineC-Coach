@@ -63,7 +63,6 @@
   display: block;
   position: absolute;
   right: 50px;
-  top:15px;
   background: black;
   opacity: 0.8;
 }
@@ -82,8 +81,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 80px;
-  padding: 5% 10%;
   /*background-color: #88D6DB;*/
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(223,252,255,1)), to(rgba(166,226,231,1)));
   background: -o-linear-gradient(top, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 100%);
