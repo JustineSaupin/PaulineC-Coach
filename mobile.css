@@ -93,15 +93,6 @@ background: linear-gradient(180deg, rgba(223,252,255,1) 0%, rgba(166,226,231,1) 
   width: 100%;
 }
 
-#logo {
-  height: 60px;
-  width: auto;
-  position: absolute;
-  left: 20px;
-  top:10px;
-}
-
-
 .img-back {
   display: -webkit-box;
   display: -ms-flexbox;

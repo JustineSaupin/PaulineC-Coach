@@ -18,13 +18,7 @@
 .topnav #myLinks {
   display: none;
 }
-#logo {
-  height: 60px;
-  width: auto;
-  position: absolute;
-  left: 50px;
-  top:15px;
-}
+
 
 #myLinks {
   display: block;
