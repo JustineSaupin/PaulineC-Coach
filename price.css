@@ -66,11 +66,13 @@
 .forfait p {
   color: #2D2D2A;
   opacity: 0.8;
+  margin: 0;
 }
 .forfait .euros {
   font-size: 25px;
   font-weight: bolder;
   color: #2D2D2A;
+  margin: 8px;
 }
 
 .forfait .first {
